@@ -394,7 +394,7 @@ const SeveritySlider = ({ value, onChange }) => (
       max="10"
       value={value || 0}
       onChange={(e) => onChange(e.target.value === '0' ? null : parseInt(e.target.value))}
-      className="w-full h-2 bg-gradient-to-r from-green-300 via-yellow-300 via-orange-400 to-red-500 rounded-lg appearance-none cursor-pointer"
+      className="w-full h-2 bg-gradient-to-r from-green-300 via-yellow-300 via-orange-400 to-red-500 rounded-lg appearance-none cursor-pointer [&::-webkit-slider-runnable-track]:bg-transparent [&::-moz-range-track]:bg-transparent"
     />
     <div className="flex justify-between text-xs text-slate-500 mt-1">
       <span>None</span>
