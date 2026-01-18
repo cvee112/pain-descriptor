@@ -575,7 +575,7 @@ export default function PainDescriptor() {
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           {/* Header */}
           <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-5">
-            <h1 className="text-2xl font-bold text-white">Pain Descriptor Generator</h1>
+            <h1 className="text-2xl font-bold text-white">Pain Descriptor</h1>
             <p className="text-blue-100 mt-1">Generate natural pain descriptions for clinical documentation</p>
           </div>
           
